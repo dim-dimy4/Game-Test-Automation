@@ -10,11 +10,11 @@ Automated tests for game UI and mechanics using Selenium and Pytest. The goal is
 - Allure Report (for test reporting)
 
 ## Installation & Setup
-  ```sh
-   git clone https://github.com/dim-dimy4/Game-Test-Automation.git
-   cd Game-Test-Automation
-   pip install -r requirements.txt
-   ```
+ ```sh
+ git clone https://github.com/dim-dimy4/Game-Test-Automation.git
+ cd Game-Test-Automation
+ pip install -r requirements.txt
+ ```
 ## Running Tests
    1. Running all tests:
 ```sh
