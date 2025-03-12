@@ -37,6 +37,7 @@ pytest -v
 | `test_get_steam_free_games.py` | Retrieves a list of free games from Steam API and verifies the response. |
 | `test_steam_api.py`            | General API validation for Steam services. |
 | `test_steam_featured.py`       | Fetches featured game categories from Steam and validates data structure. |
+
 Example API request:
 ```python
 import requests
@@ -51,6 +52,7 @@ print(response.json())
 | Test Name                    | Description |
 |------------------------------|------------|
 | `check_steam_free_games.py` | Opens the Steam store, checks if free games are correctly listed. |
+
 Examples UI test structure:
 ```python
 from selenium import webdriver
@@ -77,24 +79,24 @@ Game-Test-Automation/
 │── README.md         # Project description
 ```
 ## Supported Browsers for UI Testing
-• Chrome (default)
-• Firefox (can be configured)
-• Edge (optional)
+- Chrome (default)
+- Firefox (can be configured)
+- Edge (optional)
 To run UI tests with a specific browser:
 ```sh
 pytest --browser=firefox
 ```
 ## Adding New Tests
-• API tests should be placed in api_tests/
-• UI tests should be placed in ui_tests/
-• Fixtures and configurations should be in conftest.py
+- API tests should be placed in api_tests/
+- UI tests should be placed in ui_tests/
+- Fixtures and configurations should be in conftest.py
 ## Contacts
 E-mail: kachuk.mail@gmail.com
 LinkedIn: [Dmytro Kachuk](https://www.linkedin.com/in/dmytro-kachuk-289628206/)  
 ## Next Steps
-• Implement more UI tests for login and checkout.
-• Add performance testing for API responses.
-• Extend support for mobile testing.
+- Implement more UI tests for login and checkout.
+- Add performance testing for API responses.
+- Extend support for mobile testing.
 
 
 
