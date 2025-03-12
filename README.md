@@ -18,16 +18,16 @@ Automated tests for game UI and mechanics using Selenium and Pytest. The goal is
 ## Running Tests
    1. Running all tests:
 ```sh
-   pytest tests/
+pytest tests/
 ```
    2. Running with detailed output:
 ```sh
-   pytest -v
+pytest -v
 ```
    3. Running with report:
  ```sh     
-   pytest --alluredir=allure-results
-   allure serve allure-results
+ pytest --alluredir=allure-results
+ allure serve allure-results
 ```
 ## Project Structure
 ```bash
@@ -47,7 +47,7 @@ Game-Test-Automation/
 ```
 ## Contacts
 E-mail: kachuk.mail@gmail.com
-Linkdin: https://www.linkedin.com/in/dmytro-kachuk-289628206/
+LinkedIn: [Dmytro Kachuk](https://www.linkedin.com/in/dmytro-kachuk-289628206/)  
 
 
 
