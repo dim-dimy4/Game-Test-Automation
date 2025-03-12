@@ -1,5 +1,4 @@
 # Game Test Automation
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 
 Automated testing for gaming services like Steam API, Epic Games Store, and game launchers.
