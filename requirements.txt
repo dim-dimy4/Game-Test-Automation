@@ -1,0 +1,7 @@
+# API Testing
+requests
+pytest
+
+# UI Testing
+selenium
+allure-pytest
