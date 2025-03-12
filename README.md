@@ -1,6 +1,4 @@
 #Game Test Automation
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Python](https://img.shields.io/badge/python-3.10-blue)
 
 Automated testing for gaming services like Steam API, Epic Games Store, and game launchers.
 Automated tests for game UI and mechanics using Selenium and Pytest. The goal is to test game features such as login, inventory, and actions within a web-based game environment.
